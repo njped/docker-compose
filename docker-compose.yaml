@@ -1,0 +1,11 @@
+---
+version: '3.8'
+services:
+  myfirstwebsite:
+    image: dockerlab:latest
+    ports:
+      - 3000:4040
+  mysecondwebsite:
+    image: dockerlab:latest
+    ports:
+      - 3001:4040
